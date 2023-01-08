@@ -1,0 +1,381 @@
+.new-phones {
+    position: relative;
+    z-index: 59;
+    height: 100%;
+}
+
+.new-phones__container {}
+
+
+
+.new-phones__body {
+    position: relative;
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #DCE5E2;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+@media(max-width:460px) {
+    .new-phones__body {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+
+.new-phones__info {}
+
+.info {
+    display: flex;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.info__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 2s;
+    opacity: 1;
+    margin: 145px 0px 0px 40px;
+    max-width: 560px;
+}
+
+@media(max-width:560px) {
+    .info__wrap {
+        margin: 100px 20px 0px 40px;
+    }
+}
+
+@media(max-width:520px) {
+    .info__wrap {
+        margin: 40px 20px 0px 20px;
+    }
+}
+
+@media(max-width:520px) {
+    .info__wrap {
+        margin: 65px 30px 0px 35px;
+    }
+}
+
+@media(max-width:400px) {
+    .info__wrap {
+        margin: 65px 15px 0px 15px;
+        justify-content: space-between;
+    }
+}
+
+.info_wrap-disapear {
+    transition-duration: 1.5s;
+    opacity: 0;
+}
+
+.figure-left {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-self: center;
+    margin: 0px 0px 0px 16px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@media(max-width:500px) {
+    .figure-left {
+        display: none;
+    }
+}
+
+
+
+.figure-left__stik-low {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 19px;
+    background-color: #08090D;
+    border-radius: 99px;
+    transform: rotate(-45deg);
+}
+
+.figure-left__stik-high {
+    position: relative;
+    top: 7px;
+    left: 0px;
+    width: 2px;
+    height: 19px;
+    background-color: #08090D;
+    border-radius: 99px;
+    transform: rotate(45deg);
+}
+
+
+.info__title {
+    display: inline-block;
+    font-size: 58px;
+    line-height: calc((70/58)*100%);
+}
+
+@media(max-width: 1135px) {
+    .info__title {
+        color: rgb(106, 105, 105);
+    }
+}
+
+@media(max-width:560px) {
+    .info__title {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.info__subtitle {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: calc((19/16)*100%);
+    margin: 19px 0px 0px 0px;
+}
+
+@media(max-width: 1135px) {
+    .info__subtitle {
+        color: rgb(177, 177, 177);
+    }
+}
+
+@media(max-width: 560px) {
+    .info__subtitle {
+        color: rgb(255, 255, 255);
+    }
+}
+@media(max-width: 460px) {
+    .info__subtitle {
+        color: rgb(168, 185, 255);
+    }
+}
+@media(max-width: 400px) {
+    .info__subtitle {
+        display: none;
+    }
+}
+
+.wrap-button {
+    display: flex;
+    margin: 30px 0px 0px 0px;
+}
+
+@media(max-width:400px) {
+    .wrap-button {
+        position: relative;
+        margin: 0px 0px 20px 0px;
+
+    }
+}
+
+.button {
+    display: flex;
+    border-radius: 32px;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 125%;
+    text-transform: capitalize;
+    border: 1px solid #000000;
+}
+
+.button_colored-1 {
+    background-color: #DCE5E2;
+}
+
+.button-size {
+    width: 170px;
+}
+
+@media(max-width:400px) {
+    .button-size {
+        width: 100%;
+    }
+}
+
+.new-phones__wrap-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+@media(max-width:550px) {
+    .new-phones__wrap-image {
+        right: -30px;
+    }
+}
+
+@media(max-width:500px) {
+    .new-phones__wrap-image {
+        right: -70px;
+    }
+}
+
+@media(max-width:460px) {
+    .new-phones__wrap-image {
+        right: -145px;
+    }
+}
+
+.new-phones__image {}
+
+@media(max-width:460px) {
+    .new-phones__image {
+        border-radius: 20px;
+    }
+}
+
+.figure-right {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    padding-right: 16px;
+    align-self: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@media(max-width:500px) {
+    .figure-right {
+        display: none;
+    }
+}
+
+.figure-right__stik-high {
+    position: relative;
+    top: 7px;
+    left: 0px;
+    width: 2px;
+    height: 19px;
+    background-color: #08090D;
+    border-radius: 99px;
+    transform: rotate(-45deg);
+
+}
+
+.figure-right__stik-low {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 19px;
+    background-color: #08090D;
+    border-radius: 99px;
+    transform: rotate(45deg);
+}
+
+.new-phones__lines-wrap {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 0px;
+    bottom: 0px;
+    transition-duration: 1s;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    padding: 0px 0px 34px 0px;
+    z-index: 0;
+}
+
+@media(max-width:460px) {
+    .new-phones__lines-wrap {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+.able-z-index {
+    z-index: 20;
+}
+
+.pop-menu {
+    transition-duration: 1s;
+    background-color: cornflowerblue;
+}
+
+.shift-menu {
+    transition-delay: 1s;
+    transition-duration: 1s;
+    height: 100%;
+    background-color: rgb(164, 225, 240);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.lines {
+    display: flex;
+    margin: 0px 0px 34px 0px;
+}
+
+@media(max-width:460px) {
+    .lines {
+        display: none;
+    }
+}
+
+.lines__line {
+    transition-duration: 1s;
+    display: inline-block;
+    width: 194px;
+    height: 3px;
+    background-color: #000000;
+    margin: 0px 12px 0px 12px;
+}
+
+.lines__line_pop {
+    transition-duration: 2s;
+    transform: scaleX(2.1);
+    display: inline-block;
+    width: 194px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin: 0px 0px 0px 0px;
+}
+
+.lines__line_disapear {
+    width: 0px
+}
+
+@media(max-width:662px) {
+    .lines__line:nth-child(1) {
+        display: none;
+    }
+
+    .lines__line {
+        margin: 0px 28px 0px 28px;
+    }
+}
+
+.new-phones__pop-container {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.new-phones__list {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+}
+
+.new-phones__item {
+    font-family: Inter;
+    font-size: 35px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 40px auto 0px auto;
+    cursor: pointer;
+}

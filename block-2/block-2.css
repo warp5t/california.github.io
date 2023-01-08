@@ -1,0 +1,471 @@
+.cover{
+  position: relative;
+  background-color:#FFFFFF;
+  z-index: 20;
+}
+.latest-offers {
+  position: relative;
+  z-index: 60;
+}
+@media(min-width:968px){
+  .latest-offers {
+     margin: 0 10px;
+  }
+}
+.latest-offers__container {
+  padding: 75px 0px 0px 0px;
+}
+
+@media(max-width:540px){
+  .latest-offers__container {
+  padding: 43px 0px 10px 0px;
+}
+}
+@media(max-width:376px){
+  .latest-offers__container {
+  padding: 18px 0px 0px 0px;
+}
+}
+.wrap-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 52px;
+text-align: center;
+color: #000000;
+padding: 0px 0px 9px 0px;
+}
+.subtitle {
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #000000;
+align-self: center;
+}
+.subtitle-block-2{
+  padding: 0px 0px 55px 0px;
+  max-width: 628px;
+}
+@media(max-width:540px){
+  .subtitle-block-2{
+    padding: 0px 10px 31px 10px;
+  }
+}
+@media(max-width:376px){
+  .subtitle-block-2{
+    padding: 0px 10px 10px 10px;
+  }
+}
+.latest-offers__products-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 16px;
+}
+@media(max-width:967px){
+  .latest-offers__products-container {
+    grid-template-columns: auto ;
+  grid-template-rows: auto auto auto;
+  column-gap: 0px;
+  row-gap: 0px;
+  }
+}
+.latest-offers__products {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+}
+.latest-offers__products:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 0px 0px 72px 0px;
+}
+.latest-offers__products:nth-child(2) {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.latest-offers__products:nth-child(3) {
+  grid-area: 1 / 2 / 3 / 3;
+  margin: 0px 0px 28px 0px;
+}
+.latest-offers__products:nth-child(4) {
+  grid-area: 1 / 3 / 3 / 4;
+  margin: 0px 0px 28px 0px;
+}
+@media(max-width:1312px){
+  .latest-offers__products:nth-child(4) {
+    display: none;
+  }
+}
+@media(max-width:967px){
+  .latest-offers__products:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 15px;
+  }
+  .latest-offers__products:nth-child(2) {
+    grid-area: 2 / 1 / 3 / 2;
+    margin: 15px;
+  }
+  .latest-offers__products:nth-child(3) {
+    grid-area: 3 / 1 / 4 / 2;
+    margin: 15px;
+  }
+}
+@media(max-width:605px){
+  .latest-offers__products:nth-child(1) {
+    margin: 15px 0px;
+    border-radius: 0px;
+  }
+  .latest-offers__products:nth-child(2) {
+    margin: 15px 0px;
+    border-radius: 0px;
+  }
+  .latest-offers__products:nth-child(3) {
+    margin: 15px 0px;
+    border-radius: 0px;
+  }
+}
+.latest-offers__device {
+}
+
+.latest-offers__products:nth-child(1) > .latest-offers__device  {
+  display: flex;
+  flex-direction: column;
+}
+.latest-offers__products:nth-child(2) > .latest-offers__device  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 42px 0px 42px;
+}
+.latest-offers__products:nth-child(3) > .latest-offers__device  {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+@media(max-width:967px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .latest-offers__products:nth-child(3) > .latest-offers__device  {
+    flex-direction: row;
+    justify-content: space-between;
+    float: none;
+  }
+}
+@media(max-width:740px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+  @media(max-width:690px){
+  .latest-offers__products:nth-child(2) > .latest-offers__device  {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width:565px){
+  .latest-offers__products:nth-child(2) > .latest-offers__device  {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media(max-width:500px){
+  .latest-offers__products:nth-child(3) > .latest-offers__device  {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .latest-offers__products:nth-child(2) > .latest-offers__device  {
+    padding:0px 0px 0px 0px;
+  }
+}
+.latest-offers__products:nth-child(4) > .latest-offers__device  {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.device {
+}
+
+.device__wrap-image {
+}
+
+.latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image{
+padding: 0px 97px 95px 42px;
+}
+.latest-offers__products:nth-child(2) > .latest-offers__device  > .device__wrap-image{
+/* padding: 144px 0px 144px 16px; */
+}
+.latest-offers__products:nth-child(3) > .latest-offers__device  > .device__wrap-image{
+padding: 144px 0px 41px 16px;
+}
+@media(max-width:967px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image{
+    padding: 0px 0px 0px 42px;
+    }
+  .latest-offers__products:nth-child(3) > .latest-offers__device  > .device__wrap-image{
+    padding: 45px 0px 41px 0px;
+    }
+}
+@media(max-width:500px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image{
+    padding: 0px 0px 0px 5px;
+    }
+    .latest-offers__products:nth-child(2) > .latest-offers__device  > .device__wrap-image{
+      padding: 0px 0px 0px 0px;
+      }
+  .latest-offers__products:nth-child(3) > .latest-offers__device  > .device__wrap-image{
+    padding: 20px 0px 0px 0px;
+    }
+  }
+  @media(max-width:490px){
+    .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image{
+      padding: 0px 0px 0px 0px;
+      }
+    }
+.latest-offers__products:nth-child(4) > .latest-offers__device  > .device__wrap-image{
+order: 2;
+  /* padding: 42px 0px 0px 0px; */
+}
+
+.device__image {
+}
+@media(max-width:967px){
+  .latest-offers__products:nth-child(3) > .latest-offers__device  > .device__wrap-image > .device__image {
+  display: none;
+  }
+}
+@media(max-width:490px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image > .device__image {
+  transform: scale(0.9);
+  margin: -18px 0px -19px -21px;
+  }
+}
+@media(max-width:405px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image > .device__image {
+  transform: scale(0.8);
+  margin: -37px 0px -41px -46px;
+  }
+}
+@media(max-width:395px){
+  .latest-offers__products:nth-child(2) > .latest-offers__device  > .device__wrap-image > .device__image {
+    transform: scale(0.9);
+    margin: -14px 0px -13px -14px;
+    }
+}
+@media(max-width:360px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image > .device__image {
+    transform: scale(0.7);
+    margin: -56px 0px -61px -70px;
+    }
+  .latest-offers__products:nth-child(2) > .latest-offers__device  > .device__wrap-image > .device__image {
+    transform: scale(0.8);
+    margin: -26px 0px -29px -27px;
+    }
+}
+@media(max-width:322px){
+  .latest-offers__products:nth-child(1) > .latest-offers__device  > .device__wrap-image > .device__image {
+    transform: scale(0.6);
+    margin: -75px 0px -78px -96px;
+    }
+  .latest-offers__products:nth-child(2) > .latest-offers__device  > .device__wrap-image > .device__image {
+    transform: scale(0.7);
+    margin: -41px 0px -43px -27px;
+    }
+}
+.device__image-mirrow{
+display: none;
+}
+@media(max-width:967px){
+  .device__image-mirrow{
+    display: inline-block;
+    }
+}
+.device__info-1 {
+  padding: 0px 42px 0px 0px;
+}
+@media(max-width:967px){
+  .device__info-1 {
+    align-self:center;
+  }
+}
+@media(max-width:740px){
+  .device__info-1 {
+    align-self:flex-start;
+    padding: 0px 0px 10px 42px;
+  }
+}
+@media(max-width:500px){
+  .device__info-1{
+    align-self:flex-start;
+    padding: 0px 0px 10px 7%;
+  }
+}
+@media(max-width:365px){
+  .device__info-1{
+    align-self:flex-start;
+    padding: 0px 0px 10px 3%;
+  }
+}
+.device__info-2 {
+  align-self:flex-end;
+  padding: 0px 0px 93px 0px;
+}
+@media(max-width:565px){
+  .device__info-2 {
+    align-self:flex-start;
+    padding: 0px 0px 10px 0px;
+  }
+}
+@media(max-width:500px){
+  .device__info-2{
+    align-self:flex-start;
+    padding: 0px 0px 0px 7%;
+  }
+}
+@media(max-width:400px){
+  .device__info-2{
+    align-self:flex-start;
+    padding: 0px 0px 0px 14%;
+  }
+}
+@media(max-width:365px){
+  .device__info-2{
+    align-self:flex-start;
+    padding: 0px 0px 10px 5%;
+  }
+}
+@media(max-width:325px){
+  .device__info-2{
+    align-self:flex-start;
+    padding: 0px 0px 10px 13%;
+  }
+}
+.device__info-3 {
+
+}
+@media(max-width:967px){
+  .device__info-3{
+    padding: 195px 42px 0px 0px;
+  }
+}
+@media(max-width:500px){
+  .device__info-3{
+    align-self:flex-start;
+    padding: 0px 0px 10px 7%;
+  }
+}
+@media(max-width:365px){
+  .device__info-3{
+    align-self:flex-start;
+    padding: 0px 0px 10px 5%;
+  }
+}
+.device__info-4 {
+  padding: 115px 0px 42px 0px;
+  order: 1;
+}
+
+.device__title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+text-align: right;
+color: #000000;
+}
+.device__info-3 > .device__title{
+  text-align: center;
+}
+@media(max-width:967px){
+  .device__info-3 > .device__title{
+    text-align: right;
+  }
+}
+@media(max-width:676px){
+  .device__info-3 > .device__title{
+    text-align: center;
+  }
+}
+@media(max-width:500px){
+  .device__info-3 > .device__title{
+    text-align: left;
+  }
+}
+@media(max-width:405px){
+  .device__info-3 > .device__title{
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+  }
+}
+@media(max-width:740px){
+  .device__info-1 > .device__title{
+    text-align: left;
+  }
+}
+@media(max-width:405px){
+  .device__info-1 > .device__title{
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+  }
+}
+@media(max-width:565px){
+  .device__info-2 > .device__title{
+    text-align: left;
+  }
+}
+@media(max-width:405px){
+  .device__info-2 > .device__title{
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+  }
+}
+
+.device__info-4 > .device__title{
+  text-align: center;
+}
+.device__slogan {
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+text-align: right;
+color: #000000;
+}
+@media(max-width:342px){
+  .device__slogan{
+    font-size: 29px;
+  }
+}
+.break{}
+.break-1{
+  display: none;
+}
+@media(max-width:967px){
+  .break{
+    display: none;
+  }
+}
+
+.device__info-3 > .device__slogan{
+  text-align: center;
+}
+.device__info-4 > .device__slogan{
+  text-align: center;
+}
+
+

@@ -1,0 +1,107 @@
+.most-selled-items {
+  margin: 0 10px 47px 10px;
+
+}
+/* @media(min-width:0){
+  .most-selled-items{
+  }
+} */
+.most-selled-items__container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 78px 0px 0px 0px;
+}
+@media(max-width:490px){
+  .most-selled-items__container{
+    padding: 25px 0px 0px 0px;
+  }
+}
+._container {
+}
+.wrap-about {
+}
+.title-block-3{
+padding: 0px 0px 31px 0px;
+}
+@media(max-width:500px){
+  .title-block-3{
+    padding: 0px 0px 0px 0px;
+    }
+}
+.title {
+}
+.subtitle {
+}
+.most-selled-items__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width:1215px){
+  .most-selled-items__wrap{
+    flex-wrap: wrap;
+  }
+}
+
+.most-selles-items__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  flex: 1 0 303px;
+  height: 396px;
+  padding: 28px 14px 75px 14px;
+}
+@media(max-width:1215px){
+  .most-selles-items__item {
+    margin: 0px 50px;
+  }
+}
+@media(max-width:825px){
+  .most-selles-items__item {
+    margin: 0;
+  }
+}
+@media(max-width:550px){
+  .most-selles-items__item {
+    padding: 20px 0px 0px 0px;
+    height: 337px;
+  }
+}
+.most-selled__link{
+  
+}
+.most-selled-items__image {
+}
+.most-selled-items__info{
+  display: flex;
+  flex-direction: column;
+  max-width: 427px;
+}
+.most-selled-items__name {
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #000000;
+padding: 0px 0px 9px 0px;
+}
+.most-selled-items__about {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #4B4B4B;
+padding: 0px 0px 9px 0px;
+}
+.most-selled-items__price {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+}

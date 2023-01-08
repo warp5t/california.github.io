@@ -1,0 +1,210 @@
+.anything-else {
+  padding: 51px 0px 19px 0px;
+}
+@media(max-width:630px){
+  .anything-else{
+    padding: 30px 0px 19px 0px;
+  }
+}
+@media(max-width:440px){
+  .anything-else{
+    padding: 14px 0px 19px 0px;
+  }
+}
+.anything-else__container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.title {
+}
+.title-block-6 {
+  padding: 0px 0px 24px 0px;
+}
+@media(max-width:360px){
+  .title-block-6{
+    font-size: 38px;
+  }
+}
+.anything-else__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 0px 18px 0px;
+  width: 100%;
+  margin: 0 15px;
+}
+.anything-else__icon-input{
+  display: flex;
+  justify-content: center;
+background: #F8F9FA;
+border-bottom: 1px solid #C5C5C5;
+border-top: 1px solid #C5C5C5;
+border-left: 1px solid #C5C5C5;
+border-bottom-left-radius: 50px;
+border-top-left-radius: 50px;
+}
+.anything-else__icon{
+margin: 0px 20px 0px 17px;
+}
+.anything-else__input-device {
+  min-width: 650px;
+  min-height: 60px;
+  background: #F8F9FA;
+border-bottom: 1px solid #C5C5C5;
+border-top: 1px solid #C5C5C5;
+border-right: 1px solid #C5C5C5;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+color: #000000;
+}
+@media(max-width:765px){
+  .anything-else__input-device {
+    min-width: 83%;
+  }
+}
+@media(max-width:460px){
+  .anything-else__input-device {
+    min-width: 80%;
+  }
+}
+@media(max-width:460px){
+  .anything-else__input-device {
+    min-width: 76%;
+  }
+}
+.anything-else__list-button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 540px;
+}
+@media(max-width:575px){
+  .anything-else__list-button {
+    width: auto;
+    padding: 0 10px;
+    justify-content: center;
+  }
+}
+.anything-else__button-device {
+  background: #FFFFFF;
+border: 1px solid #C5C5C5;
+border-radius: 20px;
+padding: 12px 22px 13px 22px;
+margin: 0px 7px 7px 0px;
+}
+
+.anything-else__button-device:nth-child(1) {
+ 
+}
+.anything-else__button-device:nth-child(2) {
+  
+}
+.anything-else__button-device:nth-child(3) {
+  
+}
+.anything-else__button-device:nth-child(4) {
+  
+}
+.anything-else__button-device:nth-child(5) {
+ 
+}
+.anything-else__button-device:nth-child(6) {
+  margin: 0px 7px 7px 54px;
+}
+@media(max-width:575px){
+  .anything-else__button-device:nth-child(6) {
+    margin: 0px 7px 7px 0px;
+  }
+}
+.anything-else__button-device:nth-child(7) {
+  
+}
+.anything-else__button-device:nth-child(8) {
+   
+}
+.anything-else__button-device:nth-child(9) {
+ 
+}
+
+
+.anything-else__sing-up {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background: #DCE5E2;
+border-radius: 16px;
+margin: 68px 20px 0px 20px;
+padding: 47px 0px 0px 0px;
+min-width: 935px;
+min-height: 450px;
+}
+@media(max-width:980px){
+  .anything-else__sing-up {
+    min-width: 94%;
+    margin: 35px 20px 0px 20px;
+  }
+}
+@media(max-width:535px){
+  .anything-else__sing-up {
+    padding: 47px 0px 58px 0px;
+  }
+}
+@media(max-width:445px){
+  .anything-else__sing-up {
+    padding: 47px 0px 35px 0px;
+  }
+}
+.wrap-about {
+}
+.second-title-block-6 {
+  padding: 0px 10px 14px 10px;
+}
+.subtitle {
+}
+.anything-else__image {
+  margin: 0px 0px 14px 0px;
+}
+.anything-else__subscribe {
+  display: flex;
+  align-self:center;
+  margin: 0 10px;
+}
+#anything-else__input{
+  width: 285px;
+  height:50px;
+  background: #DCE5E2;
+border-bottom: 1px solid #000000;
+border-left: 1px solid #000000;
+border-top: 1px solid #000000;
+border-radius: 54px 0px 0px 54px;
+padding: 0px 0px 0px 32px;
+}
+@media(max-width:445px){
+  #anything-else__input{
+    width: 90%;
+  }
+}
+@media(max-width:385px){
+  #anything-else__input{
+    width: 85%;
+  }
+}
+.anything-else__button-subscribe {
+  height:50ox;
+  width:115px;
+ background: #000000;
+  border-radius: 0px 54px 54px 0px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+}
